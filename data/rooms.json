@@ -1,0 +1,29 @@
+{
+    "room-1": {
+        "nom": "Salon #1",
+        "creator": null,
+        "params": {
+            "max_people": 10,
+            "password": null,
+            "for_adult": true
+        }
+    },
+    "room-2": {
+        "nom": "Salon #2",
+        "creator": null,
+        "params": {
+            "max_people": 5,
+            "password": "mdp",
+            "for_adult": false
+        }
+    },
+    "room-3": {
+        "nom": "Salon #3",
+        "creator": null,
+        "params": {
+            "max_people": 2,
+            "password": null,
+            "for_adult": false
+        }
+    }
+}
