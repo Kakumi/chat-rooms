@@ -16,7 +16,7 @@ At first, you have to use this command at the root of the folder<br/>
 `npm install`
 
 When you have successly installed all the packages you can start your server, it will be launch on the port **8000**<br/>
-`npm start`
+`node server`
 
 You should get a successful message
 
