@@ -1,11 +1,12 @@
 import React from 'react';
+import Jdenticon from 'react-jdenticon';
 
 const UserText = (props) => {
     //Template for user details : logo + username
     return (
         <div className="row my-2">
             <div className="col-4">
-                <img className="img-fluid" src={"http://localhost:8000/avatars/" + props.username} alt="Logo" />
+                <Jdenticon value={props.username} />
             </div>
 
             <div className="col-8">

@@ -4,11 +4,7 @@ const app = express();
 const server = http.createServer(app);
 const socket = require("socket.io");
 const io = socket(server);
-const avatars = require("adorable-avatars");
 const fs = require("fs");
-
-//We set endpoint /avatars to use adorable avatars as profile icon
-app.use('/avatars', avatars);
 
 //Number of connected client
 var nbPersonnes = 0;
